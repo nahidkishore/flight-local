@@ -1,38 +1,144 @@
-.App {
-  text-align: center;
+.home {
+  max-width: 540px;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+}
+.navbar {
+  box-shadow: 0 4px 6px #0000004d;
+}
+.navbar .container-fluid {
+  padding: 0 17px;
+}
+.navbar .navbar-brand {
+  color: #00276c;
+  font-family: sans-serif;
+  font-size: 22px;
+}
+.navbar .navbar-brand span {
+  font-weight: 700;
+}
+.totalPackage {
+  font-size: 22px;
+  line-height: 9px;
+  margin: 26px 0;
+  color: #00276c;
+  font-weight: 700;
+}
+.AllPackagesList {
+  box-shadow: 0 5px 10px 2px #0000007d;
+  margin-bottom: 15px;
+  border: 0;
+  border: radius 7px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-body .img-card {
+  width: 40%;
+  background-size: cover;
+  background-position: center center;
+  border-top-left-radius: 7px;
+}
+.card-body .img-card h2 {
+  color: #00276c;
+  background-color: #ffc610;
+  font-size: 15px;
+  line-height: 28px;
+  display: inline-block;
+  padding: 5px 12px;
+  border-bottom-right-radius: 7px;
+  border-top-left-radius: 7px;
+  font-weight: 600;
+}
+.card-body .img-card h2 span {
+  padding-right: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-body .content-block {
+  max-width: 60%;
+  padding: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-body .content-block h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #00276c;
 }
 
-.App-link {
-  color: #61dafb;
+.card-body .content-block .card-text {
+  text-align: justify;
+  color: #222;
+  font-size: 12px;
+  line-height: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-body .content-block ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.card-body .content-block ul li {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #00276c;
+  font-weight: 600;
+}
+
+.card-body .content-block ul li span {
+  padding-right: 10px;
+}
+
+.card-body .content-block ul li span img {
+  height: 23px;
+  width: 23px;
+}
+
+.card-footer-bottom {
+  background-color: #00276c;
+  padding: 10px 15px 5px;
+  color: #fff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.card-footer-bottom .card-footer-left h5 {
+  font-size: 13px;
+  margin-bottom: 0;
+  color: #ffc610;
+  font-weight: 400;
+}
+.card-footer-bottom .card-footer-left img {
+  filter: invert(100%);
+}
+
+.card-footer-bottom .card-footer-left ul {
+  margin: 0;
+}
+
+.card-footer-bottom .card-footer-left ul li {
+  padding: 5px 4px;
+}
+
+.card-footer-bottom .card-footer-left ul li:first-child {
+  padding-left: 0;
+}
+
+.card-footer-bottom .card-footer-right {
+  color: #fff;
+}
+
+.card-footer-bottom .card-footer-right h5 {
+  font-size: 13px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.card-footer-bottom .card-footer-right span {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+}
+.pagination li a:focus {
+  box-shadow: none;
 }
